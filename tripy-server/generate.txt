@@ -1,0 +1,1 @@
+sequelize-auto -o "./models" -d postgres -h 10.46.22.141 -u postgres -p 5432 -x myPassword -e postgres --schema tripy

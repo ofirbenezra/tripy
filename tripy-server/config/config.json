@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "myPassword",
+    "database": "postgres",
+    "host": "10.46.22.141",
+    "dialect": "postgres",
+    "define": {
+      "freezeTableName": "true"
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "myPassword",
+    "database": "postgres",
+    "host": "10.46.22.141",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "myPassword",
+    "database": "postgres",
+    "host": "10.46.22.141",
+    "dialect": "postgres"
+  }
+}
