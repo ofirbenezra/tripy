@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {FormControl, FormGroup, Validators} from "@angular/forms";
-import {LoginService} from "./services/login.service";
-import {User} from "../../models/user.model";
+import {FormControl, FormGroup, Validators} from '@angular/forms';
+import {LoginService} from './services/login.service';
+import {User} from '../../models/user.model';
 
 @Component({
   selector: 'ti-login',
@@ -15,29 +15,19 @@ export class LoginComponent implements OnInit {
   constructor(private loginService: LoginService) {
     this.formGroup = new FormGroup({
       userName: new FormControl('', [Validators.required]),
+      firstName: new FormControl('', [Validators.required]),
+      lastName: new FormControl('', [Validators.required]),
       password: new FormControl('', [Validators.required]),
+      RePassword: new FormControl('', [Validators.required]),
       email: new FormControl('', [Validators.required, Validators.email])
-
     });
   }
 
   ngOnInit() {
   }
 
-  get username() {
-    return this.formGroup.get('username');
-  }
-
-  get password() {
-    return this.formGroup.get('username');
-  }
-
-  get email() {
-    return this.formGroup.get('username');
-  }
-
   signUp() {
     const user: User = this.formGroup.value;
-    this.loginService.signup(user);
+    this.loginService.signup(user).subscribe();
   }
 }

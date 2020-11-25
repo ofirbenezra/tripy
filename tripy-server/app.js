@@ -6,6 +6,7 @@ var logger = require('morgan');
 var dbManager = require('./db-mgr');
 
 var indexRouter = require('./routes/index');
+var authRouter = require('./routes/auth');
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -22,6 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/auth', authRouter);
 
 //connect to database
 // dbManager.init();

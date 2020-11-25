@@ -10,6 +10,6 @@ export class LoginService {
   }
 
   signup(user: User) {
-    this.httpClient.post(`/auth/login`, {});
+    return this.httpClient.post(`/auth/login`, user);
   }
 }

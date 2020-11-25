@@ -8,12 +8,22 @@ module.exports = function(sequelize, DataTypes) {
       comment: '',
       primaryKey: true
     },
+    'user_name': {
+      type: DataTypes.STRING,
+      allowNull: true,
+      comment: ''
+    },
     'first_name': {
       type: DataTypes.STRING,
       allowNull: true,
       comment: ''
     },
     'last_name': {
+      type: DataTypes.STRING,
+      allowNull: true,
+      comment: ''
+    },
+    'password': {
       type: DataTypes.STRING,
       allowNull: true,
       comment: ''
