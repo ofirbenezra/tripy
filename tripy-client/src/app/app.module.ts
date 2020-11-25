@@ -9,11 +9,14 @@ import {EffectsModule} from '@ngrx/effects';
 import {HttpClientModule} from '@angular/common/http';
 import {UsersEffects} from './ngrx/effect/users.effect';
 import { UsersComponent } from './pages/users/users.component';
+import { LoginComponent } from './pages/login/login.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent
+    UsersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +24,7 @@ import { UsersComponent } from './pages/users/users.component';
     StoreModule.forRoot(appStateReducer),
     EffectsModule.forRoot([UsersEffects]),
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -18,7 +18,7 @@ export class UsersEffects {
         mergeMap(() => {
           return this.usersService.getUsers()
             .pipe(
-              map((resp) => FetchUsersSuccess({total: _.get(resp, 'total'), users: _.get(resp, 'users')})),
+              map((resp) => FetchUsersSuccess({total: resp.length, users: resp})),
               catchError((err) => of(FetchUsersFailure()))
             );
         })
