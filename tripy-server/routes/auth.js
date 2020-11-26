@@ -1,15 +1,20 @@
 var express = require('express');
-const BeUser = require('../view-models/users');
 var router = express.Router();
-const { User } = require('../sequelize')
-const { v4: uuidv4 } = require('uuid')
+const controller = require('../controllers/auth.controller');
+const _ = require('lodash');
 
-router.post('/login', function(req, res, next) {
-    const vmUser = req.body;
-    const user = new BeUser(uuidv4(),vmUser.userName, vmUser.firstName, vmUser.lastName, vmUser.email, vmUser.password, vmUser.phone);
-    User.create(user).then(data => {
-        res.send(user);
-    })
+router.post('/login', async function(req, res, next) {
+    try {
+        const vmUser = req.body;
+        const { user, session } = await controller.login(vmUser);
+        res.status(200).send({user, session});
+    }
+    catch (error) {
+        const errMessage = _.get(error, 'message', 'error occurred');
+        const errCode = _.get(error, 'status', 500);
+        res.status(errCode).json({message: 'error occurred', error: errMessage});
+    }
+
 });
 
 module.exports = router;

@@ -2,17 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="723b2801-b0fc-44ae-b76c-b535b83443cf" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/tripy-server/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tripy-server/view-models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tripy-client/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/footer/footer.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/main-layout/main-layout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/main-layout/main-layout.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/main-layout/main-layout.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/main-layout/main-layout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/map/map.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/map/map.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/map/map.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/map/map.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/top-bar/top-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/top-bar/top-bar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/top-bar/top-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/top-bar/top-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-server/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tripy-server/services/crypto/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tripy-client/src/app/pages/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/login/login.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tripy-client/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tripy-client/src/app/pages/login/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/login/services/login.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tripy-client/src/proxy.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/proxy.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tripy-server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/src/app/pages/users/users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/app/pages/users/users.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-client/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tripy-server/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-server/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tripy-server/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-server/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-server/models/index._js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tripy-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-server/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-server/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripy-server/view-models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripy-server/view-models/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +54,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kgDUAXmTfeaix5D8awfBe5qHeW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.field.readonly" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tripy-server/services" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\temp\tripy\tripy-server\services" />
       <recent name="D:\Ofir_Ruckus\projects\tripy\tripy-server" />
       <recent name="D:\Ofir_Ruckus\projects\tripy\tripy-server\models" />
     </key>
@@ -62,7 +89,7 @@
       <recent name="D:\Ofir_Ruckus\projects\tripy\tripy-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Attach to Node.js/Chrome.debug">
+  <component name="RunManager" selected="Node.js.server:debug">
     <configuration name="debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
@@ -102,7 +129,9 @@
       <workItem from="1606212323080" duration="61000" />
       <workItem from="1606212391734" duration="11181000" />
       <workItem from="1606299529287" duration="645000" />
-      <workItem from="1606300184705" duration="4907000" />
+      <workItem from="1606300184705" duration="13579000" />
+      <workItem from="1606380331886" duration="1363000" />
+      <workItem from="1606390111979" duration="7507000" />
     </task>
     <task id="LOCAL-00001" summary="Omit credentials">
       <created>1606131648177</created>
@@ -125,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606299683626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login">
+      <created>1606305332125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606305332125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +180,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/tripy-client" />
@@ -158,34 +195,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="431" key="#TSLint/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606210342483" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606124973278">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606322888757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606124973278" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606322888757" />
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606122038280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606122038280" />
-    <state x="225" y="107" width="1109" height="826" key="CommitChangelistDialog2" timestamp="1606305084062">
+    <state x="225" y="107" width="1109" height="826" key="CommitChangelistDialog2" timestamp="1606305553966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="225" y="107" width="1109" height="826" key="CommitChangelistDialog2/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305084062" />
-    <state width="920" height="466" key="DebuggerActiveHint" timestamp="1606303357319">
+    <state x="225" y="107" width="1109" height="826" key="CommitChangelistDialog2/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305553966" />
+    <state width="1222" height="466" key="DebuggerActiveHint" timestamp="1606322512911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="920" height="466" key="DebuggerActiveHint/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606303357319" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606214614390">
+    <state width="1222" height="466" key="DebuggerActiveHint/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606322512911" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606305284283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606214614390" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305284283" />
     <state x="827" y="270" key="EnvironmentVariablesDialog" timestamp="1606121110772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="270" key="EnvironmentVariablesDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606121110772" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606301278247">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606319456407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606301278247" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606319456407" />
     <state x="587" y="370" width="470" height="282" key="Github.ShareDialog" timestamp="1606212460035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,70 +231,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="225" key="Github.UntrackedFilesDialog/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606212489462" />
-    <state width="1900" height="282" key="GridCell.Tab.0.bottom" timestamp="1606305068277">
+    <state width="1900" height="282" key="GridCell.Tab.0.bottom" timestamp="1606389361582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="282" key="GridCell.Tab.0.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305068277" />
-    <state width="1900" height="282" key="GridCell.Tab.0.center" timestamp="1606305068277">
+    <state width="1900" height="282" key="GridCell.Tab.0.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606389361582" />
+    <state width="1900" height="282" key="GridCell.Tab.0.center" timestamp="1606389361582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="282" key="GridCell.Tab.0.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305068277" />
-    <state width="1900" height="282" key="GridCell.Tab.0.left" timestamp="1606305068277">
+    <state width="1900" height="282" key="GridCell.Tab.0.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606389361582" />
+    <state width="1900" height="282" key="GridCell.Tab.0.left" timestamp="1606389361582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="282" key="GridCell.Tab.0.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305068277" />
-    <state width="1900" height="282" key="GridCell.Tab.0.right" timestamp="1606305068277">
+    <state width="1900" height="282" key="GridCell.Tab.0.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606389361582" />
+    <state width="1900" height="282" key="GridCell.Tab.0.right" timestamp="1606389361582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="282" key="GridCell.Tab.0.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305068277" />
-    <state width="1900" height="348" key="GridCell.Tab.1.bottom" timestamp="1606304423851">
+    <state width="1900" height="282" key="GridCell.Tab.0.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606389361582" />
+    <state width="1900" height="348" key="GridCell.Tab.1.bottom" timestamp="1606323671970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.1.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.1.center" timestamp="1606304423851">
+    <state width="1900" height="348" key="GridCell.Tab.1.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671970" />
+    <state width="1900" height="348" key="GridCell.Tab.1.center" timestamp="1606323671970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.1.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.1.left" timestamp="1606304423851">
+    <state width="1900" height="348" key="GridCell.Tab.1.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671970" />
+    <state width="1900" height="348" key="GridCell.Tab.1.left" timestamp="1606323671970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.1.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.1.right" timestamp="1606304423851">
+    <state width="1900" height="348" key="GridCell.Tab.1.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671970" />
+    <state width="1900" height="348" key="GridCell.Tab.1.right" timestamp="1606323671970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.1.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.2.bottom" timestamp="1606304423852">
+    <state width="1900" height="348" key="GridCell.Tab.1.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671970" />
+    <state width="1900" height="348" key="GridCell.Tab.2.bottom" timestamp="1606323671971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.2.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423852" />
-    <state width="1900" height="348" key="GridCell.Tab.2.center" timestamp="1606304423851">
+    <state width="1900" height="348" key="GridCell.Tab.2.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671971" />
+    <state width="1900" height="348" key="GridCell.Tab.2.center" timestamp="1606323671971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.2.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.2.left" timestamp="1606304423851">
+    <state width="1900" height="348" key="GridCell.Tab.2.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671971" />
+    <state width="1900" height="348" key="GridCell.Tab.2.left" timestamp="1606323671970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.2.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.2.right" timestamp="1606304423851">
+    <state width="1900" height="348" key="GridCell.Tab.2.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671970" />
+    <state width="1900" height="348" key="GridCell.Tab.2.right" timestamp="1606323671971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.2.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304423851" />
-    <state width="1900" height="348" key="GridCell.Tab.3.bottom" timestamp="1606303482870">
+    <state width="1900" height="348" key="GridCell.Tab.2.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671971" />
+    <state width="1900" height="348" key="GridCell.Tab.3.bottom" timestamp="1606323671972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.3.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606303482870" />
-    <state width="1900" height="348" key="GridCell.Tab.3.center" timestamp="1606303482869">
+    <state width="1900" height="348" key="GridCell.Tab.3.bottom/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671972" />
+    <state width="1900" height="348" key="GridCell.Tab.3.center" timestamp="1606323671972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.3.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606303482869" />
-    <state width="1900" height="348" key="GridCell.Tab.3.left" timestamp="1606303482869">
+    <state width="1900" height="348" key="GridCell.Tab.3.center/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671972" />
+    <state width="1900" height="348" key="GridCell.Tab.3.left" timestamp="1606323671971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.3.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606303482869" />
-    <state width="1900" height="348" key="GridCell.Tab.3.right" timestamp="1606303482869">
+    <state width="1900" height="348" key="GridCell.Tab.3.left/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671971" />
+    <state width="1900" height="348" key="GridCell.Tab.3.right" timestamp="1606323671972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="348" key="GridCell.Tab.3.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606303482869" />
+    <state width="1900" height="348" key="GridCell.Tab.3.right/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606323671972" />
     <state x="184" y="86" key="MergeDialog" timestamp="1606299782918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -270,73 +307,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606212382543" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606299803239">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606305340223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606299803239" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1606231815116">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606305340223" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1606403720770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606231815116" />
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1606213586444">
+    <state x="667" y="253" width="585" height="534" key="find.popup/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606403720770" />
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1606402870645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606213586444" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606304461497">
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606402870645" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606406147595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606304461497" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-2560.-366.1280.700/0.0.1920.1040@0.0.1920.1040" timestamp="1606406147595" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/models/index._js</url>
-          <line>29</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/models/index._js</url>
-          <line>30</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/models/index._js</url>
-          <line>10</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/models/index._js</url>
-          <line>25</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/sequelize.js</url>
-          <line>5</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/tripy-server/routes/users.js</url>
           <line>13</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/routes/auth.js</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/tripy-server/controllers/auth.controller.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/routes/auth.js</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tripy-server/routes/auth.js</url>
-          <line>10</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/tripy-server/controllers/auth.controller.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

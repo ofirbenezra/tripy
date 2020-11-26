@@ -1,4 +1,4 @@
-const BeUser = class AspectType {
+const BeUser = class User {
     constructor(id, userName, firstName, lastName, email, password, phone) {
         this.id = id;
         this.user_name = userName;

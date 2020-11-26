@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {LoginService} from './services/login.service';
 import {User} from '../../models/user.model';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'ti-login',
@@ -12,7 +13,7 @@ export class LoginComponent implements OnInit {
 
   formGroup: FormGroup;
 
-  constructor(private loginService: LoginService) {
+  constructor(private router: Router, private loginService: LoginService) {
     this.formGroup = new FormGroup({
       userName: new FormControl('', [Validators.required]),
       firstName: new FormControl('', [Validators.required]),
@@ -28,6 +29,8 @@ export class LoginComponent implements OnInit {
 
   signUp() {
     const user: User = this.formGroup.value;
-    this.loginService.signup(user).subscribe();
+    this.loginService.signup(user).subscribe(res => {
+      this.router.navigate(['main']);
+    });
   }
 }
