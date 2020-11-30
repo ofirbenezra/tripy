@@ -1,0 +1,71 @@
+-- Table: tripy.trips
+
+-- DROP TABLE tripy.trips;
+
+CREATE TABLE tripy.trips
+(
+    id uuid NOT NULL,
+    name character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    start_date date,
+    end_date date,
+    CONSTRAINT pk_id PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE tripy.trips
+    OWNER to postgres;
+
+
+------------------------------------------------------------
+
+-- Table: tripy.users
+
+-- DROP TABLE tripy.users;
+
+CREATE TABLE tripy.users
+(
+    id uuid NOT NULL,
+    first_name character varying(100) COLLATE pg_catalog."default",
+    last_name character varying(100) COLLATE pg_catalog."default",
+    email character varying(50) COLLATE pg_catalog."default",
+    phone text COLLATE pg_catalog."default",
+    user_name character varying(100) COLLATE pg_catalog."default",
+    password character varying(100) COLLATE pg_catalog."default",
+    CONSTRAINT users_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE tripy.users
+    OWNER to postgres;
+
+---------------------------------------------------------------------
+
+-- Table: tripy."userTrips"
+
+-- DROP TABLE tripy."userTrips";
+
+CREATE TABLE tripy."userTrips"
+(
+    user_id uuid NOT NULL,
+    trip_id uuid NOT NULL,
+    CONSTRAINT "userTrips_pkey" PRIMARY KEY (user_id, trip_id),
+    CONSTRAINT "userTrips_user_id_trip_id_key" UNIQUE (user_id, trip_id)
+,
+    CONSTRAINT fk_user_trips_trips FOREIGN KEY (trip_id)
+        REFERENCES tripy.trips (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID,
+    CONSTRAINT fk_user_trips_users FOREIGN KEY (user_id)
+        REFERENCES tripy.users (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE tripy."userTrips"
+    OWNER to postgres;

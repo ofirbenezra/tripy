@@ -4,6 +4,9 @@ import {getUsersSelector, UsersState} from '../../ngrx/state/users.state';
 import {FetchUsers} from '../../ngrx/action/users.actions';
 import {Observable, Subscription} from 'rxjs';
 import {User} from '../../models/user.model';
+import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
+import {BsModalRef, BsModalService} from "ngx-bootstrap/modal";
+import {AddUserDialogComponent} from "../add-user-dialog/add-user-dialog.component";
 
 @Component({
   selector: 'ti-users',
@@ -14,8 +17,10 @@ export class UsersComponent implements OnInit, OnDestroy {
   usersList$: Observable<User[]>;
   users: User[];
   subscriptions: Subscription[] = [];
+  faPencilAlt = faPencilAlt;
+  modalRef: BsModalRef;
 
-  constructor(private usersStore: Store<UsersState>) { }
+  constructor(private modalService: BsModalService, private usersStore: Store<UsersState>) { }
 
   ngOnInit() {
     this.usersList$ = this.usersStore.select(getUsersSelector);
@@ -23,6 +28,10 @@ export class UsersComponent implements OnInit, OnDestroy {
       this.users = res;
     }));
     this.usersStore.dispatch(FetchUsers());
+  }
+
+  addUser() {
+    this.modalRef = this.modalService.show(AddUserDialogComponent);
   }
 
   ngOnDestroy() {

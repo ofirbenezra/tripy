@@ -18,8 +18,9 @@
 .main-content {
   grid-area: content;
   padding: 1rem;
-  display: grid;
-  grid-template-columns: auto minmax(1rem, 500px);
+  background-color: #dbd9d9;
+  //display: grid;
+  //grid-template-columns: auto minmax(1rem, 500px);
 }
 
 .right-aside {

@@ -1,8 +1,6 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import {LoginComponent} from "./pages/login/login.component";
-import {UsersComponent} from "./pages/users/users.component";
-import {MainLayoutComponent} from "./pages/main-layout/main-layout.component";
+import {NgModule} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
+import {LoginComponent} from './pages/login/login.component';
 
 const routes: Routes = [
   {
@@ -15,9 +13,10 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'main',
-    component: MainLayoutComponent
-  }
+    path: 'app',
+    loadChildren: './layout/layout.module#LayoutModule'
+  },
+  {path: '**', redirectTo: ''},
 
 ];
 
@@ -25,4 +24,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

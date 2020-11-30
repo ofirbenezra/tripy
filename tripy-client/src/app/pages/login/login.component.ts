@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
   signUp() {
     const user: User = this.formGroup.value;
     this.loginService.signup(user).subscribe(res => {
-      this.router.navigate(['main']);
+      this.router.navigate(['app']);
     });
   }
 }
