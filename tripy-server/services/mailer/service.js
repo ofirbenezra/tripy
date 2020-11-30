@@ -15,7 +15,7 @@ function sendEmail(from, to, subject, text, htmlBody) {
             service: 'gmail',
             auth: {
                 user: 'chapati.tech@gmail.com',
-                pass: 'Intersurf'
+                pass: '<password>'
             }
         });
 
