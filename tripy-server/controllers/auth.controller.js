@@ -5,12 +5,13 @@ const BeUser = require('../view-models/users');
 const { v4: uuidv4 } = require('uuid')
 
 module.exports = {
-    login
+    signup: signup
 }
 
-async function login(vmUser) {
+async function signup(vmUser) {
     const encryptedPassword = cryptoService.encrypt(vmUser.password);
-    const user = new BeUser(uuidv4(),vmUser.userName, vmUser.firstName, vmUser.lastName, vmUser.email, encryptedPassword, vmUser.phone);
+    const status = 'ONLINE';
+    const user = new BeUser(uuidv4(),vmUser.userName, status, vmUser.firstName, vmUser.lastName, vmUser.email, encryptedPassword, vmUser.phone);
     const data = await User.create(user);
 
     const clonedUser = {...data.dataValues};

@@ -1,3 +1,10 @@
 <div style="background: white;">
-Time line
+  <ejs-schedule width="100%" height="250px" [views]="views" [selectedDate]="selectedDate"
+                [eventSettings]="eventSettings" [group]='group' [timeScale]="timeScaleOptions">
+    <e-resources>
+      <e-resource field="OwnerId" title="Owner" name="Owners"
+                  [dataSource]="ownerDataSource" [allowMultiple]="allowMultipleOwner"
+                  textField='text' idField='id' colorField='color' groupIDField='groupId'></e-resource>
+    </e-resources>
+  </ejs-schedule>
 </div>

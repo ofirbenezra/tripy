@@ -6,7 +6,7 @@ const _ = require('lodash');
 router.post('/login', async function(req, res, next) {
     try {
         const vmUser = req.body;
-        const { user, session } = await controller.login(vmUser);
+        const { user, session } = await controller.signup(vmUser);
         res.status(200).send({user, session});
     }
     catch (error) {

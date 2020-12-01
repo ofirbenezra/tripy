@@ -5,8 +5,9 @@ import {FetchUsers} from '../../ngrx/action/users.actions';
 import {Observable, Subscription} from 'rxjs';
 import {User} from '../../models/user.model';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
-import {BsModalRef, BsModalService} from "ngx-bootstrap/modal";
-import {AddUserDialogComponent} from "../add-user-dialog/add-user-dialog.component";
+import {BsModalRef, BsModalService} from 'ngx-bootstrap/modal';
+import {AddUserDialogComponent} from '../add-user-dialog/add-user-dialog.component';
+import {IconDefinition} from '@fortawesome/fontawesome-common-types';
 
 @Component({
   selector: 'ti-users',
@@ -19,6 +20,7 @@ export class UsersComponent implements OnInit, OnDestroy {
   subscriptions: Subscription[] = [];
   faPencilAlt = faPencilAlt;
   modalRef: BsModalRef;
+  statusIcon: IconDefinition;
 
   constructor(private modalService: BsModalService, private usersStore: Store<UsersState>) { }
 

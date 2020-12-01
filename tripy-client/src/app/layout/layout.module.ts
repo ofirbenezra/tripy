@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 import {LayoutRoutingModule} from './layout-routing.module';
 import {LayoutComponent} from './layout.component';
 import {TopBarComponent} from '../pages/top-bar/top-bar.component';
@@ -10,17 +10,27 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {DashboardComponent} from '../pages/dashboard/dashboard.component';
 import {UsersComponent} from '../pages/users/users.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import {AddUserDialogComponent} from "../pages/add-user-dialog/add-user-dialog.component";
+import {
+  AgendaService,
+  DayService,
+  DragAndDropService,
+  MonthService,
+  ResizeService,
+  ScheduleModule,
+  WeekService,
+  WorkWeekService
+} from '@syncfusion/ej2-angular-schedule';
+import {TimelineComponent} from "../pages/timeline/timeline.component";
 
 @NgModule({
   declarations: [
-    // AddUserDialogComponent,
     DashboardComponent,
     LayoutComponent,
     TopBarComponent,
     FooterComponent,
     MapComponent,
-    UsersComponent
+    UsersComponent,
+    TimelineComponent
   ],
   imports: [
     CommonModule,
@@ -28,10 +38,12 @@ import {AddUserDialogComponent} from "../pages/add-user-dialog/add-user-dialog.c
     GoogleMapsModule,
     LayoutRoutingModule,
     ReactiveFormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ScheduleModule
   ],
-  entryComponents: [
-    // AddUserDialogComponent
-  ]
+  providers: [
+    AgendaService, DayService, WeekService, WorkWeekService, MonthService, DragAndDropService, ResizeService
+  ],
 })
-export class LayoutModule { }
+export class LayoutModule {
+}

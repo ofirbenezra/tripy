@@ -8,22 +8,12 @@ module.exports = function(sequelize, DataTypes) {
       comment: '',
       primaryKey: true
     },
-    'user_name': {
-      type: DataTypes.STRING,
-      allowNull: true,
-      comment: ''
-    },
     'first_name': {
       type: DataTypes.STRING,
       allowNull: true,
       comment: ''
     },
     'last_name': {
-      type: DataTypes.STRING,
-      allowNull: true,
-      comment: ''
-    },
-    'password': {
       type: DataTypes.STRING,
       allowNull: true,
       comment: ''
@@ -35,6 +25,31 @@ module.exports = function(sequelize, DataTypes) {
     },
     'phone': {
       type: DataTypes.TEXT,
+      allowNull: true,
+      comment: ''
+    },
+    'user_name': {
+      type: DataTypes.STRING,
+      allowNull: true,
+      comment: ''
+    },
+    'password': {
+      type: DataTypes.STRING,
+      allowNull: true,
+      comment: ''
+    },
+    'status': {
+      type: DataTypes.STRING,
+      allowNull: true,
+      comment: ''
+    },
+    'free_from': {
+      type: DataTypes.DATEONLY,
+      allowNull: true,
+      comment: ''
+    },
+    'free_until': {
+      type: DataTypes.DATEONLY,
       allowNull: true,
       comment: ''
     }

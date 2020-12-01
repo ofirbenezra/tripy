@@ -18,7 +18,9 @@ export class UsersService {
   public getUsers(): Observable<User[]> {
     return this.httpClient.get<any[]>(`/users`).pipe(
       map(users => {
-        return users.map(user => new User(user.id, user.user_name, user.first_name, user.last_name, user.phone, user.email));
+        return users.map(user => {
+          return new User(user.id, user.user_name, user.status, user.first_name, user.last_name, user.phone, user.email, user.free_from, user.free_until);
+        });
       })
     );
   }
