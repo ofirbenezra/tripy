@@ -14,12 +14,14 @@ import {
   AgendaService,
   DayService,
   DragAndDropService,
+  MonthAgendaService,
   MonthService,
   ResizeService,
   ScheduleModule,
   WeekService,
   WorkWeekService
 } from '@syncfusion/ej2-angular-schedule';
+import {TimePickerModule} from '@syncfusion/ej2-angular-calendars';
 import {TimelineComponent} from '../pages/timeline/timeline.component';
 import {PlanningTabComponent} from '../pages/dashboard/planning-tab/planning-tab.component';
 import {IdeasTabComponent} from '../pages/dashboard/ideas-tab/ideas-tab.component';
@@ -43,10 +45,17 @@ import {IdeasTabComponent} from '../pages/dashboard/ideas-tab/ideas-tab.componen
     LayoutRoutingModule,
     ReactiveFormsModule,
     FontAwesomeModule,
-    ScheduleModule
+    ScheduleModule,
+    TimePickerModule
   ],
   providers: [
-    AgendaService, DayService, WeekService, WorkWeekService, MonthService, DragAndDropService, ResizeService
+    DayService,
+    WeekService,
+    WorkWeekService,
+    MonthService,
+    AgendaService,
+    MonthAgendaService,
+    DragAndDropService, ResizeService
   ],
 })
 export class LayoutModule {

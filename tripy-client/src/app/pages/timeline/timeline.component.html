@@ -2,7 +2,7 @@
   <ejs-schedule #scheduleObj width="100%" [views]="views" [selectedDate]="selectedDate"
                 [eventSettings]="eventSettings" [group]='group' [timeScale]="timeScaleOptions">
     <e-resources>
-      <e-resource field="OwnerId" title="Owner" name="Owners"
+      <e-resource field="OwnerId" title="Owner" name="Members"
                   [dataSource]="ownerDataSource" [allowMultiple]="allowMultipleOwner"
                   textField='text' idField='id' colorField='color' groupIDField='groupId'></e-resource>
     </e-resources>
