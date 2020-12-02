@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {UsersState} from '../../ngrx/state/users.state';
+import {Store} from '@ngrx/store';
 
 @Component({
   selector: 'ti-dashboard',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
 }

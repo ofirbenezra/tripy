@@ -2,6 +2,8 @@ import {RouterModule, Routes} from '@angular/router';
 import {NgModule} from '@angular/core';
 import {LayoutComponent} from './layout.component';
 import {DashboardComponent} from '../pages/dashboard/dashboard.component';
+import {PlanningTabComponent} from "../pages/dashboard/planning-tab/planning-tab.component";
+import {IdeasTabComponent} from "../pages/dashboard/ideas-tab/ideas-tab.component";
 
 const routes: Routes = [
   {
@@ -17,7 +19,22 @@ const routes: Routes = [
       },
       {
         path: 'dashboard',
-        component: DashboardComponent
+        component: DashboardComponent,
+        children: [
+          {
+            path: '',
+            pathMatch: 'full',
+            redirectTo: 'planning'
+          },
+          {
+            path: 'planning',
+            component: PlanningTabComponent
+          },
+          {
+            path: 'ideas',
+            component: IdeasTabComponent
+          }
+        ]
       }
     ]
   }

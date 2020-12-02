@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {Store} from '@ngrx/store';
 import {getUsersSelector, UsersState} from '../../ngrx/state/users.state';
 import {FetchUsers} from '../../ngrx/action/users.actions';
@@ -14,30 +14,19 @@ import {IconDefinition} from '@fortawesome/fontawesome-common-types';
   templateUrl: './users.component.html',
   styleUrls: ['./users.component.scss']
 })
-export class UsersComponent implements OnInit, OnDestroy {
-  usersList$: Observable<User[]>;
-  users: User[];
-  subscriptions: Subscription[] = [];
+export class UsersComponent implements OnInit {
+
+  @Input() users: User[];
   faPencilAlt = faPencilAlt;
   modalRef: BsModalRef;
   statusIcon: IconDefinition;
 
-  constructor(private modalService: BsModalService, private usersStore: Store<UsersState>) { }
+  constructor(private modalService: BsModalService) { }
 
-  ngOnInit() {
-    this.usersList$ = this.usersStore.select(getUsersSelector);
-    this.subscriptions.push(this.usersList$.subscribe(res => {
-      this.users = res;
-    }));
-    this.usersStore.dispatch(FetchUsers());
-  }
+  ngOnInit() {}
+
 
   addUser() {
     this.modalRef = this.modalService.show(AddUserDialogComponent);
   }
-
-  ngOnDestroy() {
-    this.subscriptions.forEach(s => s.unsubscribe());
-  }
-
 }

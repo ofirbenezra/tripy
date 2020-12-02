@@ -20,7 +20,9 @@ import {
   WeekService,
   WorkWeekService
 } from '@syncfusion/ej2-angular-schedule';
-import {TimelineComponent} from "../pages/timeline/timeline.component";
+import {TimelineComponent} from '../pages/timeline/timeline.component';
+import {PlanningTabComponent} from '../pages/dashboard/planning-tab/planning-tab.component';
+import {IdeasTabComponent} from '../pages/dashboard/ideas-tab/ideas-tab.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import {TimelineComponent} from "../pages/timeline/timeline.component";
     FooterComponent,
     MapComponent,
     UsersComponent,
-    TimelineComponent
+    TimelineComponent,
+    PlanningTabComponent,
+    IdeasTabComponent
   ],
   imports: [
     CommonModule,
